@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Empty code for the function isdigit
+ * _isdigit - function isdigit
+ * @c: var 1
+ * Return: c
 */
-int _isdigit(int c);
+int _isdigit(int c)
+{
+	return (c);
+}

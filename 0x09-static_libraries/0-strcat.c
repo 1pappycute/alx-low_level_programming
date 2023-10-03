@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Empty code for the function strcat
+ * _strcat - function strcat
+ * @dest: char 1
+ * @src: char 2
+ * Return: src
 */
-char *_strcat(char *dest, char *src);
+char *_strcat(char *dest, char *src)
+{
+	return (src);
+}

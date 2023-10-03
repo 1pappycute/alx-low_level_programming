@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Empty code for the function abs
+ * _abs - function abs
+ * @n: var 1
+ * Return: var n
 */
-int _abs(int n);
+int _abs(int n)
+{
+	return (n);
+}

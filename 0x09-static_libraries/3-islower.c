@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Emoty code for function islower
+ * _islower - function islower
+ * @c: var 1
+ * Return: c
 */
-int _islower(int c);
+int _islower(int c)
+{
+	return (c);
+}

@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Empty code for the function memcpy
+ * _memcpy - function memcpy
+ * @dest: char 1
+ * @src: char 2
+ * @n: unsigned int n
+ * Return: src
 */
-char *_memcpy(char *dest, char *src, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+	return (src);
+}

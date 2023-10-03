@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Empty vode for the fuction strcpy
+ * *_strcpy - fuction strcpy
+ * @dest: char 1
+ * @src: char 2
+ * Return: char
 */
-char *_strcpy(char *dest, char *src);
+char *_strcpy(char *dest, char *src)
+{
+	return (dest);
+}

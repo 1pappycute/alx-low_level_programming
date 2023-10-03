@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Empty code for the function strncat
+ * _strncat - function strncat
+ * @dest: cgar 1
+ * @src: char 2
+ * @n: int n
+ * Return: src
 */
-char *_strncat(char *dest, char *src, int n);
+char *_strncat(char *dest, char *src, int n)
+{
+	return (src);
+}

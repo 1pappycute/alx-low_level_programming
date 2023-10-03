@@ -1,6 +1,15 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Empty code for the function strlen
+ * _strlen - function strlen
+ * @s: var 1
+ * Return: s
 */
-int _strlen(char *s);
+int _strlen(char *s)
+{
+	int count = 0;
+
+	while (*(s + count) != '\0')
+		count++;
+	return (count);
+}

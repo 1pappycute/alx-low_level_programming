@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Empty code for the function putchar
+ * _putchar - function putchar
+ * @c: variables 1
+ * Return: c
 */
-int _putchar(char c);
+int _putchar(char c)
+{
+	return (c);
+}

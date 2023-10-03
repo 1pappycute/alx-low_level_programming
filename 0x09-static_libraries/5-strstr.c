@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Empty code for the function strstr
+ * _strstr - function strstr
+ * @haystack: char 1
+ * @needle: char 2
+ * Return: needle
 */
-char *_strstr(char *haystack, char *needle);
+char *_strstr(char *haystack, char *needle)
+{
+	return (needle);
+}

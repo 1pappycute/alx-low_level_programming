@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Empty code for the function isupper
+ * _isupper - function isupper
+ * @c: var 1
+ * Return: c
 */
-int _isupper(int c);
+int _isupper(int c)
+{
+	return (c);
+}

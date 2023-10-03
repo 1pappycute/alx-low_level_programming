@@ -1,6 +1,12 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * Empty code for the function strpbrk
+ * _strpbrk - function strpbrk
+ * @s: char 1
+ * @accept: char 2
+ * Return: accept
 */
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
+{
+	return (accept);
+}
